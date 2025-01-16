@@ -15,7 +15,7 @@ public class SkillBuilder1 {
         System.out.println("Enter a floating-point number:");
         Float myNumber = input.nextFloat();
         double spiceValue = (4.0/3)*(Math.pow(2, ((Math.sqrt(5))/(Math.pow(myNumber, 3)))));
-        System.out.println("Well " + myName + ", the spice value resulted in " + spiceValue);
+        System.out.println("Well " + myName + ", th e spice value resulted in " + spiceValue);
         String convertedValue = String.format("%.2f", spiceValue);
         System.out.println("And the converted value is " + convertedValue);
         //TODO : Replace this comment with your code
